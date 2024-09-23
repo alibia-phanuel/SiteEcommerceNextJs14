@@ -11,8 +11,8 @@ const Footer = () => {
             <div className="text-2xl tracking-wide">ALIBIA</div>
           </Link>
           <p>
-            N'hésitez pas à nous contacter pour toute demande de renseignements
-            ou à passer nous voir directement sur douala !
+            N&apos;hésitez pas à nous contacter pour toute demande de
+            renseignements ou à passer nous voir directement sur douala !
           </p>
           <span className="font-semibold">phanuel.alibia@gmail.com</span>
           <span className="font-semibold">+237 696603305</span>
@@ -59,7 +59,7 @@ const Footer = () => {
         </div>
         {/* RIGHT */}
         <div className="w-full md:w-1/2 lg:w-1/4 flex flex-col gap-8">
-          <h1 className="font-medium text-lg">S'ABONNER</h1>
+          <h1 className="font-medium text-lg">S&apos;ABONNER</h1>
           <p>
             Soyez le premier à recevoir les dernières nouvelles sur les
             tendances, les promotions et et bien plus encore !
