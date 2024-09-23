@@ -13,13 +13,15 @@ const SearchBar = () => {
     }
   };
   return (
-    <form className="flex justify-between gap-4 bg-gray-100 p-2 rounded-md flex-1">
+    <form
+      className="flex justify-between gap-4 bg-gray-100 p-2 rounded-md flex-1"
+      onSubmit={handleSearch}
+    >
       <input
         name="name"
         type="text"
         placeholder="Recherche"
         className="flex-1 bg-transparent outline-none"
-        onSubmit={handleSearch}
       />
       <button className="cursor-pointer">
         <Image src="/search.png" alt="search" width={16} height={16} />
